@@ -35,7 +35,11 @@ public class Jogador {
     public void setGols(int gols) {
         this.gols = gols;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Jogador [nome=" + nome + ", camisa=" + camisa + ", gols=" + gols + "]";
+    }
     
 
 }
